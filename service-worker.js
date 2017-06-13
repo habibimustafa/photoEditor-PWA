@@ -1,12 +1,12 @@
 var cacheName     = 'photoEditorPWA-v0.1';
 var filesToCache  = [
-  '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/styles/inline.css',
-  '/images/ic_add_white_24px.svg',
-  '/images/ic_refresh_white_24px.svg',
-  '/images/heroteesme.jpg'
+  './',
+  './index.html',
+  './scripts/app.js',
+  './styles/inline.css',
+  './images/ic_add_white_24px.svg',
+  './images/ic_refresh_white_24px.svg',
+  './images/heroteesme.jpg'
 ];
 
 self.addEventListener('install', function(e) {
